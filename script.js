@@ -10,7 +10,7 @@ class Person {
 	}
 	set age(age){
 		 this.age=age;
-		return this.age;
+		
 	}
 }
 
@@ -28,7 +28,7 @@ class Teacher extends Person {
 		super(name,age);
 	}
 	teach(){
-		console.log(`${this.name} is Teaching`);
+		console.log(`${this.name} is teaching`);
 	}
 	
 }
